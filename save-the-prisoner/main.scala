@@ -4,7 +4,8 @@ object Solution {
 
     /**
      * Modulus function that only returns positive numbers.
-     * Return a number in the range [0, mod).
+	 
+     * @return a number in the range [0, mod)
      */
     def positiveMod(x : Int, mod : Int) = {
         val xPrime = x % mod;
