@@ -4,7 +4,7 @@ object Solution {
 
     /**
      * Modulus function that only returns positive numbers.
-	 *
+     *
      * @return a number in the range [0, mod)
      */
     def positiveMod(x : Int, mod : Int) = {
